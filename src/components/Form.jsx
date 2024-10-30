@@ -14,7 +14,7 @@ function Form() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/submit/",
+        "https://backend-30-10-4sgi.onrender.com/api/submit/",
         userData
       );
       // console.log(response.data.details);
